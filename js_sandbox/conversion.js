@@ -49,3 +49,10 @@ const val4 = 6;
 const sum2 = val3 + val4;
 console.log(sum); //Javascript will automatically convert val4 to String, and concatenate it ---> we get 56
 console.log(typeof sum);
+
+const val5 = String(5);
+const val6 = 6;
+const sum3 = Number(val5 + val6);
+console.log(sum); //Javascript will automatically convert val4 to String, and concatenate it ---> we get 56 as a Number type.
+console.log(typeof sum);
+
