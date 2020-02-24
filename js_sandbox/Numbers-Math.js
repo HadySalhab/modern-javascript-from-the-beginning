@@ -22,5 +22,5 @@ val = Math.max(2, 33, 5, 3, 1, 25, 5, 21, 55, -2); //gives the maximum value
 val = Math.random(); //gives us a random number, even decimal
 val = Math.random() * 20; //gives us random number from 0 to 20 (decimal)
 val = Math.random() * 20 + 1; //gives us random number from 1 to 20 (decimal)
-val = Math.floor(Math.random * 20 + 1); //gives as an int from 1 to 20
+val = Math.floor(Math.random() * 20 + 1); //gives as an int from 1 to 20
 console.log(val);
