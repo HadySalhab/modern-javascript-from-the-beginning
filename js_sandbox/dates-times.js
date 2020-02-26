@@ -9,7 +9,7 @@ val = birthday;
 
 val = today.getMonth(); //this is zero based, january is zero
 val = today.getDate();
-val = today.getDay(); //Monday=1 ,tuesday=2 ...
+val = today.getDay(); //Monday=1 ,tuesday=2 ... sunday = 0
 val = today.getFullYear(); //2020
 val = today.getHours(); //24 hours format
 val = today.getMinutes();
