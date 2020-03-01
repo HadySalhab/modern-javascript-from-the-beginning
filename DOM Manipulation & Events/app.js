@@ -30,9 +30,9 @@ val = document.scripts[0];
 val = document.scripts[0].src;
 val = document.scripts[0].getAttribute("src"); //select the src Attribute
 
-let scripts = document.scripts; //returns the scripts available in the DOM
+let scripts = document.scripts; //returns the scripts available in the DOM //htmlCollection returned
 
-let scriptsArray = Array.from(scripts); //turning it into array
+let scriptsArray = Array.from(scripts); //turning it into array (htmlCollection to array)
 
 scriptsArray.forEach(function(script) {
   console.log(script.getAttribute("src"));

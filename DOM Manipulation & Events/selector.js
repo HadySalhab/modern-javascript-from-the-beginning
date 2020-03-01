@@ -32,4 +32,4 @@ document.querySelector("li:nth-child(4)").textContent = "Hello world"; //select 
 document.querySelector("li:nth-child(even)").style.background = "#ccc"; //select the FIRST EVEN
 document.querySelector("li:nth-child(odd)").style.background = "#f4f4f4"; //select the FIRST ODD
 
-// querySelector is just a ONE element selector.
+// querySelector is just a ONE SINGLE element selector.
