@@ -23,8 +23,8 @@ taskTitle.innerHTML = '<span style="color:red">Task List</span>';
 
 console.log(document.querySelector("#task-title")); //select the id task-title
 console.log(document.querySelector(".card-title")); //select the class card-title
-console.log(document.querySelector("h5")); //select only the first h5 element in the DOM
-document.querySelector("li").style.color = "red"; //select only the first li element and changes the text color
+console.log(document.querySelector("h5")); //select ONLY the first h5 element in the DOM
+document.querySelector("li").style.color = "red"; //select ONLY the first li element and changes the text color
 document.querySelector("ul li").style.color = "green";
 document.querySelector("li:last-child").style.color = "blue";
 document.querySelector("li:nth-child(3)").style.color = "orange"; //select the 3rd li child
