@@ -16,9 +16,9 @@ li.appendChild(document.createTextNode("Hello World"));
 
 //Create a new link element
 const link = document.createElement("a");
-//add classes
+//add classes to link
 link.className = "delete-item secondary-content";
-//add icon html
+//add icon html to link
 link.innerHTML = '<i class="fa fa-remove"></i>';
 //append link into li
 li.appendChild(link);
