@@ -12,3 +12,17 @@ val = "welcome";
 val = { name: "Hady", age: 25 };
 val = 12.5 * 4;
 console.log(val);
+
+//function
+
+function greet(name) {
+  console.log(`Hello ${name}`);
+}
+
+greet("hady");
+
+let sumCalc = function(numberA, numberB) {
+  return numberA + numberB;
+};
+
+console.log(sumCalc(10, 11));
