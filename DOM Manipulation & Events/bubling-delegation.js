@@ -21,6 +21,7 @@
 
 document.body.addEventListener("click", deleteItem);
 
+//add listener to the body, and delegate it to a specific children, using the if statement
 function deleteItem(e) {
   //className has to match all the classes being assigned to the element
   // for the if statement to fire
@@ -28,7 +29,7 @@ function deleteItem(e) {
   //   console.log("delete item");
   // }
 
-  //when we click on the x , the target here is the icon inside the anchor tag
+  //when we click on the x , the target here is the icon inside the anchor tag and not the anchor itself
   if (e.target.parentElement.classList.contains("delete-item")) {
     console.log("delete item");
     e.target.parentElement.parentElement.remove();
