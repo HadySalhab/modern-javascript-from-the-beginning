@@ -26,11 +26,11 @@ document.querySelector("form").addEventListener("submit", function(e) {
   if (localStorage.getItem("tasks") === null) {
     tasks = [];
   } else {
-    tasks = JSON.parse(localStorage.getItem("tasks"));
+    tasks = JSON.parse(localStorage.getItem("tasks")); //turning the string in array
   }
-  tasks.push(task);
+  tasks.push(task); //push, means put the element at the end of the array
 
-  localStorage.setItem("tasks", JSON.stringify(tasks));
+  localStorage.setItem("tasks", JSON.stringify(tasks)); //stringify means, turning the array back to string
   alert("Task Saved");
 });
 
@@ -38,3 +38,6 @@ const tasks = JSON.parse(localStorage.getItem("tasks"));
 tasks.forEach(function(task) {
   console.log(task);
 });
+
+//STORAGE does not store string, so we have to turn the array into string using stringify , when we want to store
+// and we have to JSON.parse(String) to turn it into array, if that is our demand
