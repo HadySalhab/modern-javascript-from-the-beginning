@@ -50,5 +50,7 @@ function removeTask(e) {
 }
 
 function filter(e) {
+  //TODO.................
+
   console.log(e.target.value);
 }
