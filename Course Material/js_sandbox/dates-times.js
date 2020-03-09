@@ -5,6 +5,7 @@ const today = new Date(); //by default, it returns today's date
 let birthday = new Date("9-10-1981 11:25:00");
 birthday = new Date("September 10 1981");
 birthday = new Date("9/10/1981");
+birthday = new Date(834155085565);
 val = birthday;
 
 val = today.getMonth(); //this is zero based, january is zero
