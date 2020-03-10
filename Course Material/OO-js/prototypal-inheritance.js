@@ -27,7 +27,7 @@ Customer.prototype.constructor = Customer;
 
 const customer1 = new Customer("Tom", "Smith", "555-555-5555", "Standard");
 
-//Customer greeting
+//Overriding the greeting
 Customer.prototype.greeting = function() {
   return `Hello there ${this.firstName} ${this.lastName} welcome to the company`;
 };
