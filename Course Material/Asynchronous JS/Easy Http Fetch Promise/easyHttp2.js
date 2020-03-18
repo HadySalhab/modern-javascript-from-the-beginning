@@ -12,6 +12,8 @@
 
 class EasyHTTP {
   //Make an http get request
+  //We dont have to wrap fetch in a promise
+  //it is a promise by itself, so we could have returned it => return fetch()
   get(url) {
     return new Promise((resolve, reject) => {
       fetch(url)
