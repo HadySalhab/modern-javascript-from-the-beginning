@@ -20,7 +20,6 @@ console.log(line);
 console.log(line.lastName);
 
 // Syntax #2
-
 const eva = Object.create(personPrototypes, {
   firstName: { value: "Eva" },
   lastName: { value: "Romanos" },

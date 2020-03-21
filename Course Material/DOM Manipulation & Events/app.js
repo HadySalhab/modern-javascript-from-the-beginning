@@ -2,7 +2,7 @@ let val;
 val = document;
 val = document.all;
 val = document.all; //All document Collection
-val = document.all[0]; // gives the html in this case
+val = document.all[0]; // gives the html element in this case
 val = document.all.length; //# of elements in the DOM
 val = document.head;
 val = document.body;

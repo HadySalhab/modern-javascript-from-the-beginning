@@ -26,3 +26,10 @@ let sumCalc = function(numberA, numberB) {
 };
 
 console.log(sumCalc(10, 11));
+
+let number = 0;
+number++; //post increment
+++number; //pre increment
+
+let y = number++; //stores the variable than it increment , so y will not have the updated value
+y = ++number; //number value will be incremented first than stored in y.
