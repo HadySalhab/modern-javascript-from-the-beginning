@@ -20,6 +20,7 @@ function Customer(firstName, lastName, phone, membership) {
 }
 
 //Inherit The Person prototype methods
+//like extending a class
 Customer.prototype = Object.create(Person.prototype);
 
 //Make customer.prototype return Customer()
@@ -32,5 +33,13 @@ Customer.prototype.greeting = function() {
   return `Hello there ${this.firstName} ${this.lastName} welcome to the company`;
 };
 
+//we can add a unique function for Customer
+Customer.prototype.greetin2 = function() {
+  return `Hello unique customer`;
+};
+
 console.log(customer1);
-console.log(customer1.greeting());
+console.log(person1);
+
+//Customer extends Person
+//Person extends Supertype Object

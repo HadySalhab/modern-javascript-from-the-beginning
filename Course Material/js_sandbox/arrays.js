@@ -68,5 +68,9 @@ function over50(num) {
 }
 val = numbers.find(over50);
 
+numbers.find(number => {
+  return number > 50;
+});
+
 console.log(numbers);
 console.log(val);
