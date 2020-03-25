@@ -43,10 +43,11 @@ const sara = new User("Sara");
 
 const chatroom = new Chatroom();
 
-chatroom.register(bard);
+chatroom.register(brad);
 chatroom.register(jeff);
 chatroom.register(sara);
 
 brad.send("Hello Jeff", jeff);
 sara.send("Hello Brad", brad);
 jeff.send("Hello Everyone!!!");
+console.log(chatroom.users); //undefined,private field
